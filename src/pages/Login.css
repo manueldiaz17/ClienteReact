@@ -1,0 +1,85 @@
+.Login__page {
+    margin: 0px;
+    padding: 0px;
+    font-family: Times, Times New Roman, serif;
+}
+.Login_page_container {
+    background: linear-gradient(#21c08b,rgba(202, 161, 161, 0.966));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+    height: 100vh;
+}
+.Login__card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid yellow;
+    border-radius: 40px;
+    color: white;
+    padding: 50px 40px 40px;
+    min-height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px 0px 0px;
+    
+}
+.Login_container_form {
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 37px;
+}
+
+.Form__remember_me {
+    color: white;
+    font-size: 14px;
+    margin: 0px auto ;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Times, Times New Roman, serif;
+}
+.Form__remember_me:hover {
+    text-decoration: underline;
+}
+.Form__input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-family: Times, Times New Roman, serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+::placeholder {
+    color: white;
+}
+.Form__button {
+    background-color: rgba(223, 241, 55, 0.842);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif; 
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.Form__register{
+    font-style: 18px;
+    font-family: Times, Times New Roman, serif;
+}
+@media only screen and (max-width: 600px) {
+   
+    
+}
